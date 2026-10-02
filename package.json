@@ -1,0 +1,28 @@
+{
+  "name": "iloveposts",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "preflight": "node scripts/preflight.mjs",
+    "predeploy": "node scripts/preflight.mjs",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit && node scripts/check-page.mjs && node scripts/check-generated.mjs",
+    "cf-typegen": "wrangler types",
+    "check:page": "node scripts/check-page.mjs"
+  },
+  "dependencies": {
+    "@cloudflare/puppeteer": "^1.2.0",
+    "@cloudflare/sandbox": "^0.12.9",
+    "hono": "^4.12.32"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "wrangler": "^4.116.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "workerd@1.20260921.1": true
+  }
+}
