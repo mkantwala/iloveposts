@@ -11,20 +11,15 @@ To run your own copy, see **[docs/self-hosting.md](docs/self-hosting.md)**.
 
 ## Demo
 
-[Watch the iloveposts demo](iloveposts-demo.mp4) (MP4, 34 MB).
+
+
+https://github.com/user-attachments/assets/b246d570-10d9-48d8-817d-2ec96a86edd1
+
 
 ---
 
-## What it produces
-
-For one tweet URL, a finished card is:
-
-- **a PNG** at the exact size of the chosen X format, ready to post
-- **a self-contained HTML file** — fonts, avatar and media inlined, no network access — with a working
-  **See more / See less** for long tweets
-- **a preview page** that scales the card to fit any window
-
-The card shows the tweet as a post — the author, "Replying to @…" for a reply, the text, its media, a
+Uploading iloveposts-demo-embed.mp4…
+y, the text, its media, a
 **quoted tweet** with its own author, text and picture, then the date and counts — inside a visual
 world designed for that tweet: a concept, artwork, palette and typography derived from what it says
 and shows. Every word, name, number and date comes from the tweet itself. The model decides how it
