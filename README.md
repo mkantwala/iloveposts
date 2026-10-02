@@ -9,6 +9,10 @@ Rendering, with the designer on Workers AI.
 
 To run your own copy, see **[docs/self-hosting.md](docs/self-hosting.md)**.
 
+## Demo
+
+[Watch the iloveposts demo](iloveposts-demo.mp4) (MP4, 34 MB).
+
 ---
 
 ## What it produces
